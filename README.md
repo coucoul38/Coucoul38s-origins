@@ -1,6 +1,6 @@
 # Coucoul38s-origins
 A Minecraft datapack that adds a few custom origins to the Origins mod.<br>
-This is very much a WIP, and features listed below might not be finished and ready to play. *(Except the dwarf, that one was ez)*
+This is very much a WIP, and features listed below might not be finished and ready to play.<br>*(Except the dwarf, that one was ez)*
 
 ## List of new origins
 ### Dwarf
