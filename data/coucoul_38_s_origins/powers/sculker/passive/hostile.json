@@ -1,0 +1,92 @@
+{
+    "name": "Hostile",
+    "description": "You are considered as an hostile mob, and can't wear armor or use tools.",
+    "type": "origins:multiple",
+    "uundeadnow": {
+        "condition": {
+            "type": "origins:constant",
+            "value": true
+        },
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team add Hostile",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Hostile @s",
+                    "permission_level": 4
+                }
+            ]
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "team leave @s",
+            "permission_level": 4
+        }
+    },
+    "undeadundeadnow": {
+        "condition": {
+            "type": "origins:constant",
+            "value": true
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team leave @e[tag=hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Hostile @e[type=minecraft:zombie,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Hostile @e[type=minecraft:husk,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Hostile @e[type=minecraft:drowned,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Hostile @e[type=minecraft:stray,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Hostile @e[type=minecraft:warden,tag=!hateunow]",
+                    "permission_level": 4
+                }
+            ]
+        }
+    },
+    "umesswithundeadugetundead": {
+        "condition": {
+            "type": "origins:constant",
+            "value": true
+        },
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "tag @s[team=Hostile,type=!minecraft:player] add hateunow",
+            "permission_level": 4
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    }
+}

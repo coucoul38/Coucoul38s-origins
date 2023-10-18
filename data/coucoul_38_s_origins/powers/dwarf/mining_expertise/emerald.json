@@ -1,0 +1,37 @@
+{
+    "name": "Emerald Expertise",
+    "hidden": true,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "inverted": true,
+            "type": "origins:enchantment",
+            "enchantment": "minecraft:silk_touch",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "type": "origins:action_on_block_break",
+    "entity_action": {
+        "type": "origins:chance",
+        "chance": 0.33,
+        "action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:emerald",
+                "amount": 1
+            }
+        }
+    },
+    "block_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:block",
+                "block": "minecraft:emerald_ore"
+            }
+        ]
+    },
+    "only_when_harvested": true
+}

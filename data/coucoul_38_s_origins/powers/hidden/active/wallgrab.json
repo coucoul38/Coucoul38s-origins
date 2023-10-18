@@ -1,0 +1,12 @@
+{
+    "name": "Wallgrab",
+    "hidden": true,
+    "type": "origins:climbing",
+    "allow_holding": true,
+    "hold_condition": {
+        "type": "origins:resource",
+        "resource": "coucoul_38_s_origins:hidden/mana",
+        "comparison": ">",
+        "compare_to": 0
+    }
+}

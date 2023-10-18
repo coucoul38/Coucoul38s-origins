@@ -1,0 +1,23 @@
+{
+    "name": "Underground Affinity",
+    "description": "You love caves so much you only feel at home deep underground.",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:distance_from_coordinates",
+                "reference": "world_origin",
+                "ignore_x": true,
+                "ignore_z": true,
+                "shape": "cube",
+                "scale_reference_to_dimension": true,
+                "comparison": "<=",
+                "compare_to": 35
+            }
+        ]
+    },
+    "type": "origins:prevent_sleep",
+    "message": "You don't feel confortable sleeping so far away from mother earth",
+    "set_spawn_point": false
+}

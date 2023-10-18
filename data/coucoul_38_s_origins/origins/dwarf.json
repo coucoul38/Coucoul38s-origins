@@ -1,0 +1,20 @@
+{
+    "name": "Dwarf",
+    "description": "I am a dwarf",
+    "powers": [
+        "coucoul_38_s_origins:dwarf/passives/diminutive_constitution",
+        "coucoul_38_s_origins:dwarf/passives/underground_affinity",
+        "coucoul_38_s_origins:dwarf/mining_expertise/iron",
+        "coucoul_38_s_origins:dwarf/mining_expertise/gold",
+        "coucoul_38_s_origins:dwarf/mining_expertise/copper",
+        "coucoul_38_s_origins:dwarf/mining_expertise/emerald",
+        "coucoul_38_s_origins:dwarf/mining_expertise/diamond",
+        "coucoul_38_s_origins:dwarf/mining_expertise/redstone",
+        "coucoul_38_s_origins:dwarf/skill/activate",
+        "coucoul_38_s_origins:dwarf/skill/mining_boost"
+    ],
+    "icon": {
+        "item": "minecraft:iron_pickaxe"
+    },
+    "impact": 2
+}

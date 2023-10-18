@@ -1,0 +1,19 @@
+{
+    "name": "Sculk Lurker",
+    "description": "You can phase through sculk.",
+    "type": "origins:phasing",
+    "block_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:block",
+                "block": "sculk"
+            }
+        ]
+    },
+    "render_type": "remove_blocks",
+    "view_distance": 10,
+    "phase_down_condition": {
+        "type": "origins:sneaking"
+    }
+}

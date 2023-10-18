@@ -1,0 +1,9 @@
+{
+    "name": "Invisibility",
+    "description": "You are almost invisible.",
+    "type": "origins:model_color",
+    "red": 0.9,
+    "green": 0.9,
+    "blue": 0.9,
+    "alpha": 0.15
+}

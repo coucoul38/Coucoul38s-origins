@@ -1,0 +1,9 @@
+{
+    "name": "From the Deep",
+    "description": "You will spawn neer the Deep Dark.",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:ancient_city",
+    "spawn_strategy": "default",
+    "dimension_distance_multiplier": 1
+}

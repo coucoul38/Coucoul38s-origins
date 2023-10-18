@@ -1,0 +1,17 @@
+{
+    "name": "Sculker",
+    "description": "A creature from another world.",
+    "powers": [
+        "coucoul_38_s_origins:sculker/passive/blindness",
+        "coucoul_38_s_origins:sculker/passive/hostile",
+        "coucoul_38_s_origins:sculker/upgrade",
+        "coucoul_38_s_origins:sculker/passive/sculk_lurker",
+        "coucoul_38_s_origins:sculker/passive/sonic_acuity",
+        "coucoul_38_s_origins:sculker/passive/armor",
+        "coucoul_38_s_origins:sculker/spawn"
+    ],
+    "icon": {
+        "item": "minecraft:sculk_catalyst"
+    },
+    "impact": 3
+}

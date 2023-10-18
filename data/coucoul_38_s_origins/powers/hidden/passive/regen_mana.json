@@ -1,0 +1,9 @@
+{
+    "name": "Regen Mana",
+    "description": "Will regenerate 'mana' when on the ground",
+    "hidden": true,
+    "condition": {
+        "type": "origins:on_block"
+    },
+    "type": "origins:simple"
+}

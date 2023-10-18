@@ -1,0 +1,24 @@
+{
+    "name": "Blindness",
+    "description": "You cannot see creatures that are not moving.",
+    "type": "origins:prevent_entity_render",
+    "entity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:resource",
+                "resource": "moving:state_horizontally",
+                "comparison": "==",
+                "compare_to": 1
+            },
+            {
+                "inverted": true,
+                "type": "origins:resource",
+                "resource": "moving:state_vertically",
+                "comparison": "==",
+                "compare_to": 1
+            }
+        ]
+    }
+}

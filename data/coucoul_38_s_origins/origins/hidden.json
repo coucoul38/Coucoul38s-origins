@@ -1,0 +1,11 @@
+{
+    "name": "Hidden",
+    "description": "The result of a failed experiment that escaped confinment. It is almost invisible, and uses its mobility to sneak behind its prey and stab them.",
+    "powers": [
+        "coucoul_38_s_origins:hidden/passive/invisibility"
+    ],
+    "icon": {
+        "item": "minecraft:glass"
+    },
+    "impact": 1
+}

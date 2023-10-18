@@ -1,0 +1,17 @@
+{
+    "name": "Diminutive Constitution",
+    "description": "Being small has its advantages and disadvantages.",
+    "condition": {
+        "type": "origins:constant",
+        "value": true
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "operation": "addition",
+        "value": -6,
+        "name": "Diminutive Constitution",
+        "attribute": "minecraft:generic.max_health"
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

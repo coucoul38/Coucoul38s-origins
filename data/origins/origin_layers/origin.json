@@ -1,0 +1,8 @@
+{
+    "origins": [
+        "coucoul_38_s_origins:dwarf",
+        "coucoul_38_s_origins:sculker",
+        "coucoul_38_s_origins:hidden"
+    ],
+    "enabled": true
+}
